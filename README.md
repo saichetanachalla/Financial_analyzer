@@ -91,8 +91,3 @@ This repository contains a version of a Financial Document Analyzer originally b
   ```
 
 
-If you'd like, I can:
-- Add a `docker-compose.yml` with Redis + Celery + FastAPI setup.
-- Implement a Celery-based worker and example tasks.
-- Add a small SQLite DB integration with SQLAlchemy and example migrations.
-
