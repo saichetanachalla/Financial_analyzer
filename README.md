@@ -90,10 +90,6 @@ This repository contains a version of a Financial Document Analyzer originally b
   }
   ```
 
-## Notes & Next steps (Bonus ideas)
-
-- Queue Worker Model: I suggest integrating Celery + Redis or RQ + Redis for handling heavy/long-running analysis tasks. Add a Celery worker and use `background_tasks` to enqueue.
-- Database Integration: Store parsed results and metadata into a database (Postgres, SQLite) for auditing and retrieval. Add SQLAlchemy models for `AnalysisRequest` and `AnalysisResult`.
 
 If you'd like, I can:
 - Add a `docker-compose.yml` with Redis + Celery + FastAPI setup.
